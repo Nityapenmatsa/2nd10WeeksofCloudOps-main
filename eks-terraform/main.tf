@@ -4,7 +4,7 @@ provider "aws" {
 
  #Creating IAM role for EKS
   resource "aws_iam_role" "master" {
-    name = "nitya-eks-master1"
+    name = "nitya-eks-master11"
 
     assume_role_policy = jsonencode({
       "Version": "2012-10-17",

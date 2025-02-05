@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket = "penmatsa12345"
-    key    = "eks/terraform.tfstate"
+    key    = "kubernets"
     region = "us-east-1"
   }
 
